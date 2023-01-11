@@ -1,0 +1,8 @@
+.card__list {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.card__link--red {
+  color: red;
+}

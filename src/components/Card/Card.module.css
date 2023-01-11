@@ -1,0 +1,22 @@
+.card {
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  row-gap: 3rem;
+}
+
+.card__title {
+  font-size: 1.8rem;
+}
+
+.card_text {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+}
+
+.card__link {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+}
