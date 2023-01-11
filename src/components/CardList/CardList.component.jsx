@@ -23,7 +23,7 @@ const CardList = (props) => {
             title={item.title.en}
             linkTitle={item.link_title}
             href={item.link}
-            text={item.body !== null ? item.body.en : ""}
+            text={item.body && item.body.en}
             linkClassName={item.id === 1 ? `${classes["card__link--red"]}` : ""}
             target={item.id === 1 ? "_blank" : "_self"}
             onClick={() => analyticsTrackClick(item.link)} // updated onClick to avoid self trigger
